@@ -16,9 +16,19 @@
       function initMap(){
         map = new google.maps.Map(document.getElementById('map'),{
           center: {lat: 35.462906, lng: 139.220869},
+          mapTypeId: google.maps.MapTypeId.TERRAIN,
           zoom: 16
         });
+        
+        var marker = new google.maps.Marker({
+          position: {lat: 35.462906, lng: 139.330869},
+          map: map
+          amimation: google.maps.Animation.BOUNCE,
+        });
+        
        }
+     
+      var 
        </script>
        
        <script async defer
